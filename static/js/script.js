@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-   
+
 
     var fpsElement = document.createElement('div');
     fpsElement.id = 'fps';
@@ -164,22 +164,22 @@ document.addEventListener('DOMContentLoaded', function () {
     fpsElement.style.left = '0';
     document.body.insertBefore(fpsElement, document.body.firstChild);
 
-    
-    
-    
 
-    
-    
-    
+
+
+
+
+
+
 });
 
 
 
 
-var pageLoading = document.querySelector("#zyyo-loading");
-window.addEventListener('load', function() {
-    setTimeout(function () {
-        pageLoading.style.opacity = '0';
-    }, 100);
-});
+// var pageLoading = document.querySelector("#zyyo-loading");
+// window.addEventListener('load', function() {
+//     setTimeout(function () {
+//         pageLoading.style.opacity = '0';
+//     }, 100);
+// });
 
